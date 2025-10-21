@@ -1,0 +1,17 @@
+<Window x:Class="NekoCom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NekoCom" Height="300" Width="400"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+    
+    <Border Background="#1a1a1a" CornerRadius="15" BorderBrush="#ff6a00" BorderThickness="2">
+        <StackPanel Margin="20" VerticalAlignment="Center">
+            <!-- EMOJI AVATAR -->
+            <TextBlock x:Name="AvatarEmoji" Text="😺" FontSize="48" 
+                      HorizontalAlignment="Center" Margin="0,0,0,10"/>
+            
+            <TextBlock x:Name="StatusText" Text="Say 'Hey Neko'!" 
+                      Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</Window>
